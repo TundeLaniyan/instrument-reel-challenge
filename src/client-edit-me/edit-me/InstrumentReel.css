@@ -1,3 +1,51 @@
 /**
  * ✅ You can edit this file to add your own styles.
  */
+
+.instrument-reel {
+  height: 48px;
+  border: 1px solid grey;
+  background-color: rgb(36, 36, 60);
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.instrument {
+  width: fit-content;
+  padding: 0 15px;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  gap: 10px;
+  min-width: 250px;
+}
+
+.svg-container {
+  margin-top: 5px;
+}
+.svg {
+  border-radius: 50%;
+  width: 25px;
+}
+
+.value {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.value--positive {
+  color: rgb(98, 198, 98);
+}
+.value--negative {
+  color: rgb(255, 67, 67);
+}
+
+.loading {
+  width: 100%;
+  text-align: center;
+  line-height: 48px;
+}
